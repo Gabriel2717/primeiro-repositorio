@@ -9,9 +9,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Minha primeira ação"
+        working-directory: 
         run: echo "Hello world !!!"
       - name: "Segunda ação"
         run: |
           echo "Você criou oo seu primeiroo workflow !!!"
           echo "Parabéns !!!"
+      - name: "Scrip Python"
+        run: |
+          variavel = "Hello world !!!"
+          print(variavel)
+          shell: python
     
