@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Minha primeira ação"
-        working-directory: 
         run: echo "Hello world !!!"
       - name: "Segunda ação"
         run: |
